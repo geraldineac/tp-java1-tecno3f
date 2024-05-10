@@ -10,8 +10,8 @@ Intellij IDEA
 
 ## 🚔 Agradecimientos
 
-A los profes Luis, Jenny y Gaby
-A TECNO 3F
-A mis compañer@s
+* A los profes Luis, Jenny y Gaby
+* A TECNO 3F
+* A mis compañer@s
 
 
