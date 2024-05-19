@@ -1,4 +1,4 @@
-public class Arma{
+abstract public class Arma{
     //atributos
     private int cantMuniciones;
     private double alcance;
@@ -59,10 +59,10 @@ public class Arma{
 
     public boolean enCondicion(){
         if (estado.equals("EN USO") && calibre >=9){
-            System.out.println("\t\t'El arma está en condiciones para poder ser usada en un enfrentamiento'");
+          //  System.out.println("\t\t'El arma está en condiciones para poder ser usada en un enfrentamiento'");
             return true;
         }else{
-            System.out.println("\t\t'El arma no está en condiciones'");
+           // System.out.println("\t\t'El arma no está en condiciones'");
             return false;
         }
     }

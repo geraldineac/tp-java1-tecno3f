@@ -40,7 +40,7 @@ public class ArmaLarga extends Arma implements Comparable<ArmaLarga> {
 
     @Override
     public String toString() {
-        return "\tFicha de Arma: " +
+        return "\tFicha de Arma larga: " +
                 "\n\t\tCantidad de Municiones = " + getCantMuniciones() +
                 "\n\t\tAlcance = " + getAlcance() + "mts"+
                 "\n\t\tMarca = " + getMarca() +
@@ -51,9 +51,20 @@ public class ArmaLarga extends Arma implements Comparable<ArmaLarga> {
                 "\n\t\tPosee sello del RENAR = " + tieneSello;
     }
 
+//    @Override
+//    public int compareTo(ArmaLarga o) {
+//        if(this.nivelArma > o.nivelArma){
+//            return 1;
+//        }else if(this.nivelArma < o.nivelArma){
+//            return -1;
+//        } else{
+//            return 0;
+//        }
+//    }
+
     @Override
-    public int compareTo(ArmaLarga otraArma) {
-        return Integer.compare(this.nivelArma, otraArma.nivelArma);
+    public int compareTo(ArmaLarga o) {
+        return Integer.compare(this.nivelArma, o.nivelArma);
     }
 
 

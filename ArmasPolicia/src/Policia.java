@@ -55,6 +55,6 @@ public class Policia {
                 "\nNombre = " + nombre +
                 "\nApellido = " + apellido +
                 "\nLegajo n° = " + legajo +
-                "\nArma = " + arma;
+                "\nArma = " + arma.getMarca() + " calibre " + arma.getCalibre();
     }
 }
